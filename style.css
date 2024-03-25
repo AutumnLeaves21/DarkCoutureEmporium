@@ -1,0 +1,75 @@
+/*Meniu de navigare, slogan si footer*/
+@font-face {
+  font-family: "Buffied-GlqZ";
+  src: url("fonts/Buffied-GlqZ.ttf") format("truetype");
+}
+
+.bg-custom {
+  background-color:  #000000; 
+}
+
+.navbar-brand {
+  font-family: "Buffied-GlqZ", sans-serif; 
+  font-size: 40px;
+  color: #780000 !important;
+}
+
+.bg-custom-header {
+  background-color: #000000; 
+  color: #660000 !important; 
+}
+
+.motto {
+  color: #4d4b4b !important; 
+}
+
+footer.custom-footer {
+  background-color: #000000 !important;
+  color: #660000 !important;
+}
+
+/*Butoane*/
+.btn-primary {
+  background-color: #29293d; 
+  border-color: #29293d;
+ 
+}  
+
+.btn-primary:hover {
+  background-color:  #3d3d5c; 
+  border-color:  #3d3d5c;
+} 
+
+.btn-remove-from-cart {
+  background-color: #4d0000; 
+  border-color: #4d0000; 
+  margin-bottom: 5px;
+}
+
+.btn-remove-from-cart:hover {
+  background-color: darkred; 
+  border-color: darkred; 
+}
+
+.btn-secondary {
+  background-color: #262626;
+  border-color: #262626;
+}
+
+.btn-secondary:hover {
+  background-color: #595959; 
+  border-color: #595959;
+}
+
+.btn-add-to-cart {
+  margin-bottom: 5px; 
+}
+
+
+body {
+  background-color: #101010;
+}
+
+.card {
+  background-color: #cbcbcb;
+}
