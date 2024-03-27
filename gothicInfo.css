@@ -1,0 +1,458 @@
+/*Meniu de navigare, slogan si footer*/
+@font-face {
+  font-family: "Buffied-GlqZ";
+  src: url("fonts/Buffied-GlqZ.ttf") format("truetype");
+}
+
+.bg-custom {
+  background-color:  #000000; 
+}
+
+.navbar-brand {
+  font-family: "Buffied-GlqZ", sans-serif; 
+  font-size: 40px;
+  color: #780000 !important;
+}
+
+.bg-custom-header {
+  background-color: #000000; 
+  color: #660000 !important; 
+}
+
+.motto {
+  color: #4d4b4b !important; 
+}
+
+footer.custom-footer {
+  
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Înălțimea dorită a footerului */
+  background-color: #000000 !important;
+  color: #660000 !important;
+}
+
+body {
+  background-color: #101010;
+  color:  #5a5858
+  ;
+}
+
+/* Cuprins */
+nav ul {
+  list-style-type: none;  
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav ul li {
+  display: inline  ;
+  margin-right: 20px;
+  margin-bottom: 30px; 
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: #3d3d5c
+  ; 
+  font-size: 16px; 
+  font-family: Arial, sans-serif; 
+  margin-bottom: 30px;
+}
+
+nav ul li a:hover {
+  color: #666699
+  ; 
+  
+}
+
+#img1 {
+  max-height: 400px; /* înălțimea maximă dorită */
+    width: auto; /* menține proporțiile originale ale imaginii */
+    float: left; /* imaginea să fie aliniată în stânga */
+    margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+}
+
+#section0 {
+  overflow: hidden; /* pentru a curăța float-ul și a evita supraimprimarea */
+} 
+
+#img2 {
+  max-height: 300px; /* înălțimea maximă dorită */
+    width: auto; /* menține proporțiile originale ale imaginii */
+    float: left; /* imaginea să fie aliniată în stânga */
+    margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+    margin-left: 10px;
+  }
+
+  #img3 {
+    max-height: 400px; /* înălțimea maximă dorită */
+      width: auto; /* menține proporțiile originale ale imaginii */
+      float: right; /* imaginea să fie aliniată în stânga */
+      margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+      margin-right: 10px;
+    } 
+
+#img4 {
+      max-height: 400px; /* înălțimea maximă dorită */
+        width: auto; /* menține proporțiile originale ale imaginii */
+        float: left; /* imaginea să fie aliniată în stânga */
+        margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+        margin-left: 10px;
+}
+
+#img5 {
+  max-height: 400; /* înălțimea maximă dorită */
+    width: auto; /* menține proporțiile originale ale imaginii */
+    float: right; /* imaginea să fie aliniată în stânga */
+    margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+    margin-right: 10px;
+    
+}
+
+#img6 {
+    max-height: 300px; /* înălțimea maximă dorită */
+      width: auto; /* menține proporțiile originale ale imaginii */
+      float: left; /* imaginea să fie aliniată în stânga */
+      margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+      margin-left: 20px;
+      margin-bottom: 40px
+}
+
+#section1 {
+      overflow: hidden; 
+} 
+
+#img7 {
+  max-height: 340px; /* înălțimea maximă dorită */
+    width: auto; /* menține proporțiile originale ale imaginii */
+    float: left; /* imaginea să fie aliniată în stânga */
+    margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+    margin-left: 15px;
+}
+
+#img8 {
+  max-height: 400px; /* înălțimea maximă dorită */
+    width: auto; /* menține proporțiile originale ale imaginii */
+    float: left; /* imaginea să fie aliniată în stânga */
+    margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+    margin-left: 15px;
+    margin-bottom: 30px
+}
+
+#section2 {
+  overflow: hidden; 
+} 
+
+#img9 {
+max-height: 370px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: right; /* imaginea să fie aliniată în stânga */
+margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-right: 15px;
+}
+
+#img10 {
+max-height: 370px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+}
+
+#img11 {
+max-height: 340px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-bottom: 30px;
+}
+
+#section3 {
+  overflow: hidden; 
+} 
+
+#img12 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: right; /* imaginea să fie aliniată în stânga */
+margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-right: 15px;
+margin-bottom: 20px;
+}
+
+#section4 {
+  overflow: hidden; 
+} 
+
+#img13 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-bottom: 20px;
+}
+
+#section5 {
+  overflow: hidden; 
+} 
+
+#img14 {
+max-height: 380px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: right; /* imaginea să fie aliniată în stânga */
+margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-right: 15px;
+margin-bottom: 20px;
+}
+
+#img15 {
+max-height: 320px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-bottom: 20px;
+}
+
+#section6 {
+  overflow: hidden; 
+} 
+
+#img16 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-bottom: 20px;
+}
+
+#img17 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: right; /* imaginea să fie aliniată în stânga */
+margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-right: 15px;
+margin-bottom: 20px;
+}
+
+#img17-1 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 30px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: -20px;
+margin-bottom: 20px;
+margin-top: 20px
+}
+
+#section7 {
+  overflow: hidden; 
+} 
+
+#img18 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-bottom: 20px;
+}
+
+#section8 {
+  overflow: hidden; 
+} 
+
+#img19 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-bottom: 20px;
+}
+
+#img19-1 {
+max-height: 200px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: right; /* imaginea să fie aliniată în stânga */
+display: center; 
+margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-right: 15px;
+margin-bottom: 20px;
+}
+
+#section9 {
+  overflow: hidden; 
+} 
+
+#img20 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: right; /* imaginea să fie aliniată în stânga */
+margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-right: 15px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+#section10 {
+  overflow: hidden; 
+} 
+
+#img21 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+#section11 {
+  overflow: hidden; 
+} 
+
+#img22 {
+max-height: 340px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: right; /* imaginea să fie aliniată în stânga */
+margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-right: 15px;
+margin-bottom: 20px;
+}
+
+#section12 {
+  overflow: hidden; 
+} 
+
+#img23 {
+max-height: 330px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: right; /* imaginea să fie aliniată în stânga */
+margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-right: 15px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+#section13 {
+  overflow: hidden; 
+} 
+
+#img24 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+#section14 {
+  overflow: hidden; 
+} 
+
+#img25 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: right; /* imaginea să fie aliniată în stânga */
+margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-right: 15px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+#section15 {
+  overflow: hidden; 
+} 
+
+#img26 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+#section16 {
+  overflow: hidden; 
+} 
+
+#img27 {
+max-height: 350px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: right; /* imaginea să fie aliniată în stânga */
+margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-right: 15px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+#section17 {
+  overflow: hidden; 
+} 
+
+#img28 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+#section18 {
+  overflow: hidden; 
+} 
+
+#img29 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: right; /* imaginea să fie aliniată în stânga */
+margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-right: 15px;
+margin-top: 10px;
+}
+
+#section19 {
+  overflow: hidden; 
+} 
+
+#img30 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-top: 10px;
+}
+
+#section20 {
+  overflow: hidden; 
+} 
+
+#img31 {
+max-height: 300px; /* înălțimea maximă dorită */
+width: auto; /* menține proporțiile originale ale imaginii */
+float: left; /* imaginea să fie aliniată în stânga */
+margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+margin-left: 15px;
+margin-top: 5px;
+}
+
+p, h2, h3 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
