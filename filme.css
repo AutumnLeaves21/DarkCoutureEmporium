@@ -1,0 +1,268 @@
+/*Meniu de navigare, slogan si footer*/
+@font-face {
+  font-family: "Buffied-GlqZ";
+  src: url("fonts/Buffied-GlqZ.ttf") format("truetype");
+}
+
+.bg-custom {
+  background-color:  #000000; 
+}
+
+.navbar-brand {
+  font-family: "Buffied-GlqZ", sans-serif; 
+  font-size: 40px;
+  color: #780000 !important;
+}
+
+.bg-custom-header {
+  background-color: #000000; 
+  color: #660000 !important; 
+}
+
+.motto {
+  color: #4d4b4b !important; 
+}
+
+footer.custom-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Înălțimea dorită a footerului */
+  background-color: #000000 !important;
+  color: #660000 !important;
+}
+
+body {
+  background-color: #101010;
+  color:  #5a5858
+  ;
+}
+
+/* Cuprins */
+nav ul {
+  list-style-type: none;  
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline  ;
+  margin-right: 20px; 
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: #3d3d5c
+  ; 
+  font-size: 16px; 
+  font-family: Arial, sans-serif; 
+}
+
+nav ul li a:hover {
+  color: #666699; 
+}
+
+p, h2, h3 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+#section0 {
+  overflow: hidden; /* pentru a curăța float-ul și a evita supraimprimarea */
+} 
+
+#img1 {
+  max-height: 280px; /* înălțimea maximă dorită */
+    width: auto; /* menține proporțiile originale ale imaginii */
+    float: left; /* imaginea să fie aliniată în stânga */
+    margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+    margin-left: 10px;
+  }
+
+#img1-1 {
+    max-height: 270px; /* înălțimea maximă dorită */
+      width: auto; /* menține proporțiile originale ale imaginii */
+      float: right; /* imaginea să fie aliniată în stânga */
+      margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+      margin-right: 10px;
+}  
+
+#img2 {
+    max-height: 300px; /* înălțimea maximă dorită */
+      width: auto; /* menține proporțiile originale ale imaginii */
+      float: left; /* imaginea să fie aliniată în stânga */
+      margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+      margin-left: 10px;
+}
+
+#img3 {
+  max-height: 240px; /* înălțimea maximă dorită */
+    width: auto; /* menține proporțiile originale ale imaginii */
+    float: left; /* imaginea să fie aliniată în stânga */
+    margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+    margin-left: 10px;
+  }
+
+#img4 {
+   max-height: 250px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+
+#img4-1 {
+  max-height: 200px; /* înălțimea maximă dorită */
+  width: auto; /* menține proporțiile originale ale imaginii */
+  float: right; /* imaginea să fie aliniată în stânga */
+  margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+  margin-right: 10px;
+}
+
+#img5 {
+   max-height: 273000px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+
+#img5-1 {
+  max-height: 210px; /* înălțimea maximă dorită */
+  width: auto; /* menține proporțiile originale ale imaginii */
+  float: right; /* imaginea să fie aliniată în stânga */
+  margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+  margin-right: 10px;
+}  
+
+#img6 {
+   max-height: 240px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+
+#img7 {
+   max-height: 300px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: right; /* imaginea să fie aliniată în stânga */
+   margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-right: 10px;
+}
+          
+#img8 {
+   max-height: 210px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+            
+#img9 {
+   max-height: 250px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+              
+#img10 {
+   max-height: 230px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+
+#img11 {
+   max-height: 260px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: right; /* imaginea să fie aliniată în stânga */
+   margin-left: 10px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-right: 10px;
+}
+
+#img11-1 {
+  max-height: 250px; /* înălțimea maximă dorită */
+  width: auto; /* menține proporțiile originale ale imaginii */
+  float: left; /* imaginea să fie aliniată în stânga */
+  margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+  margin-left: 10px;
+}
+
+#img12 {
+   max-height: 250px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+
+#img13 {
+   max-height: 220px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+
+#img14 {
+   max-height: 220px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+
+#img15 {
+   max-height: 260px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: right; /* imaginea să fie aliniată în stânga */
+   margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-right: 10px;
+}
+
+#img16 {
+   max-height: 250px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+
+#img16-1 {
+  max-height: 230px; /* înălțimea maximă dorită */
+  width: auto; /* menține proporțiile originale ale imaginii */
+  float: right; /* imaginea să fie aliniată în stânga */
+  margin-left: 20px; /* margină la dreapta pentru a separa imaginea de text */
+  margin-right: 10px;
+}
+
+#img17 {
+   max-height: 250px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}                            
+
+#img18 {
+   max-height: 220px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+
+#img19 {
+   max-height: 300px; /* înălțimea maximă dorită */
+   width: auto; /* menține proporțiile originale ale imaginii */
+   float: left; /* imaginea să fie aliniată în stânga */
+   margin-right: 20px; /* margină la dreapta pentru a separa imaginea de text */
+   margin-left: 10px;
+}
+
+                                 
