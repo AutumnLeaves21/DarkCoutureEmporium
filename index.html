@@ -69,9 +69,39 @@
     </header>
 
     <!-- Container pentru coșul de cumpărături -->
-    <div class="container mt-4" id="cart-container">
+   <!-- Container pentru coșul de cumpărături -->
+    <!--<div class="container mt-4" id="cart-container">
       <h2>Shopping Cart</h2>
       <ul id="cart-items"></ul>
+    </div>-->
+    <div class="container mt-4" id="cart-container">
+      <h2 class="card-header bg-dark text-white" id="shopping-cart">
+        Shopping Cart
+      </h2>
+      <div class="row">
+        <div class="col-md-8 card-body" id="cart-items">
+          <ul class="list-group">
+            <!-- Lista de produse este inițial goală -->
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="card" id="cart-summary">
+            <!--<div class="card-header bg-dark text-white" id="total-header">
+              <strong>Total:</strong>
+              <span>$0.00</span>
+            </div>-->
+            <ul class="list-group list-group-flush" id="cart-items-summary">
+              <!-- Aici vor fi afișate sumarul produselor din coș -->
+            </ul>
+
+            <div>
+              <button class="btn btn-success btn-block" id="checkout-btn">
+                Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <main class="container mt-4">
